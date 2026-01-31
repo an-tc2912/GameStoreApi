@@ -1,0 +1,24 @@
+GET http://localhost:5087/games
+###
+GET http://localhost:5087/games/6
+###
+POST http://localhost:5087/games
+Content-Type: application/json
+
+{
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "genreId": 1,
+    "price": 59.99,
+    "releaseDate": "2017-03-03"
+}
+
+###
+PUT http://localhost:5087/games/1
+Content-Type: application/json
+
+{
+    "name": "Sonic Forces",
+    "genre": "Action-adventure",
+    "price": 49.99,
+    "releaseDate": "2017-03-03"
+}
