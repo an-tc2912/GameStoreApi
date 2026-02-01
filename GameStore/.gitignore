@@ -57,3 +57,45 @@ Thumbs.db
 
 # Application
 launchSettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Connection strings and secrets
+*.config
+web.config
+secrets.json
+user-secrets.json
+
+# Local database files
+*.mdf
+*.ldf
+*.ndf
+
+# ASP.NET Core
+wwwroot/lib/
+wwwroot/css/gen/
+wwwroot/js/gen/
+
+# Certificate files
+*.pfx
+*.pem
+*.cer
+*.crt
+*.key
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Visual Studio temporary files
+.vs/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# HttpTraffic files
+*.http
+
+launchSettings.json

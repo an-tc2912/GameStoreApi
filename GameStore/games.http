@@ -1,24 +1,30 @@
 GET http://localhost:5087/games
 ###
-GET http://localhost:5087/games/6
+GET http://localhost:5087/games/2
 ###
 POST http://localhost:5087/games
 Content-Type: application/json
 
 {
-    "name": "The Legend of Zelda: Breath of the Wild",
-    "genreId": 1,
+    "name": "God of War",
+    "genreId": 2,
     "price": 59.99,
-    "releaseDate": "2017-03-03"
+    "releaseDate": "2017-08-15"
 }
 
 ###
-PUT http://localhost:5087/games/1
+PUT http://localhost:5087/games/3
 Content-Type: application/json
 
 {
-    "name": "Sonic Forces",
-    "genre": "Action-adventure",
-    "price": 49.99,
-    "releaseDate": "2017-03-03"
+    "name": "Contra Rogue Corps",
+    "genreId": 1,
+    "price": 59.99,
+    "releaseDate": "2017-03-05"
 }
+
+###
+DELETE http://localhost:5087/games/3
+
+###
+GET http://localhost:5087/genres
