@@ -1,6 +1,6 @@
 namespace GameStore;
 // DTO for Game entity
-public record GameDto
+public record GameSummaryDto
 (
     int Id,
     string Name,
